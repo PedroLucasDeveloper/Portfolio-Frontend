@@ -1,5 +1,6 @@
 import { Box, Grid, GridItem } from '@chakra-ui/react'
 import MenuBar from '../components/MenuBar'
+import Hello from '../components/Hello'
 
 function PaginaInicial() {
     
@@ -8,8 +9,8 @@ function PaginaInicial() {
       <MenuBar/>
 
       <Grid templateRows='repeat(2, 1fr)' gap={2}>
-      <GridItem w='100%' h={'40vh'} bg='red.500'>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis tenetur necessitatibus, cumque laudantium eum, nesciunt quis cum voluptates numquam voluptatibus velit dolores fuga nemo neque itaque ullam inventore reprehenderit fugit.</p>
+      <GridItem w='100%' h={'40vh'}>
+        <Hello/>
       </GridItem>
 
       <GridItem w='100%' h={'40vh'} bg='blue.500'>
