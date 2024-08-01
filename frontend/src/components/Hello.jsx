@@ -3,9 +3,9 @@ import { Box, Button, Grid, GridItem, Heading, Stack, Text } from '@chakra-ui/re
 function Hello() {
     
   return (
-    <Box>
+    <Box h={'500px'}>
       <Grid templateColumns='repeat(2, 1fr)' gap={2}>
-      <GridItem display={'flex'} justifyContent={'center'} alignItems={'center'} w='100%' h={'40vh'} p={3}>
+      <GridItem display={'flex'} justifyContent={'center'} alignItems={'center'} w='100%' p={3}>
         <Heading fontSize={'50px'}>Olá mundo! <br /> Eu sou Pedro Lucas :)</Heading>
       </GridItem>
 

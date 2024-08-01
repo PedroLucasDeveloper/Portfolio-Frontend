@@ -1,7 +1,7 @@
 import { Box, Grid, GridItem } from '@chakra-ui/react'
 import MenuBar from '../components/MenuBar'
 import Hello from '../components/Hello'
-import ProjectsArea from '../components/ProjectsArea'
+import SkillsArea from '../components/SkillsArea'
 
 function PaginaInicial() {
     
@@ -9,13 +9,13 @@ function PaginaInicial() {
     <Box>
       <MenuBar/>
 
-      <Grid templateRows='repeat(2, 1fr)' gap={2}>
-      <GridItem w='100%' h={'40vh'}>
+      <Grid templateRows='repeat(1, 1fr)' gap={2}>
+      <GridItem w='100%'>
         <Hello/>
       </GridItem>
 
-      <GridItem w='100%' h={'40vh'} bg={'whitesmoke'}>
-        <ProjectsArea/>
+      <GridItem w='100%' bg={'whitesmoke'}>
+        <SkillsArea/>
       </GridItem> 
     </Grid>
       
