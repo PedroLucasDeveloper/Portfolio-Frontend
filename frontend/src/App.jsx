@@ -1,15 +1,12 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import PaginaInicial from './pages/PaginaInicial'
+import Main from './components/main'
 
 function App() {
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<PaginaInicial />} />
-      </Routes>
-    </Router>
+    <>
+      <Main/>
+    </>
   )
 }
 
