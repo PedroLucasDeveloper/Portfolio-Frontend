@@ -1,6 +1,6 @@
 import Kakashi from "../assets/kakashi.png";
 
-const coisas = () =>{
+const Coisas = () =>{
     return(
         <div className="flex bg-red-800 m-20 ssm:flex-col lg:flex-row">
             <div className="relative rounded-xl overflow-auto p-8 hover:animate-pulse">
@@ -46,4 +46,4 @@ const coisas = () =>{
     );
 }
 
-export default coisas;
+export default Coisas;

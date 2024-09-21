@@ -1,6 +1,6 @@
 import ProjectImg from '../assets/supermercado.png';
 
-const project = () =>{
+const Project = () =>{
     return(
         <>
             <div className='bg-red-800 m-20 max-w-full'> 
@@ -84,4 +84,4 @@ const project = () =>{
     );
 }
 
-export default project;
+export default Project;
